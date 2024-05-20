@@ -4,6 +4,8 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
+Una imagen es una plantilla que contiene todos los programas librerías, dependencias y configuraciones necesarias para instalar, y un contenedor es una instancia de una imagen.
+
 # COMPLETAR 
 
 ![Imagen y contenedores](imagenes/imagenYcontenedores.JPG)
@@ -27,6 +29,7 @@ Descargar la imagen **hello-world**
 # COMPLETAR
 
 **¿Qué es nginx**
+Es un server web de código abierto que, tambien puede ser utilizado como proxy inverso, cahce HTTP, y balanceador de carga.
 # COMPLETAR 
 
 Descargar la imagen  **nginx** en la versión **alpine**
@@ -54,7 +57,8 @@ docker inspect <nombre imagen>:<tag>
 Inspeccionar la imagen hello-world 
 # COMPLETAR
 
-**¿Con qué algoritmo se está generando el ID de la imagen**
+**¿Con qué algoritmo se está generando el ID de la imagen?**
+ID de las imagenes en Docker se genera utilizando una función hash. Emplea el algoritmo SHA256(Secure Hash Algorithm 256-bit)
 # COMPLETAR
 
 ### Filtrar imágenes
