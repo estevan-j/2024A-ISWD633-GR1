@@ -51,6 +51,10 @@ Crear y ejecutar inmediatamente el contenedor **srv-web2** usando la imagen ngin
 # COMPLETAR
 
 **¿Qué sucede luego de la ejecución del comando?**
+__
+Primeramente el comando en enviado por el docker CLI, al Docker Server que ejecuta la instrucción recibida.
+Si es un comando de ejecución el docker server busca la imagen localmente, y sino la encuentra la descarga de docker Hub.  Creando y ejecutando una instancia de la imagen descargada, el cli muestra al contenedor corriendo, hasta salir.
+
 # COMPLETAR  
 
 Cuando ejecutas un contenedor en primer plano sin la opción -d (modo detach), el contenedor captura la entrada estándar (stdin) del terminal, lo que significa que el terminal queda "atrapado" y no puedes introducir más comandos hasta que detengas el contenedor.
