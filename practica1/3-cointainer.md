@@ -1,4 +1,4 @@
-<# Contenedores
+# Contenedores
 
 ### Crear un contenedor
 Para crear un nuevo contenedor Docker a partir de una imagen específica, pero sin iniciarlo automáticamente. 
@@ -102,3 +102,4 @@ Verificar que el contenedor que se eliminó
 
 Inspeccionar el contenedor **srv-web** 
 # COMPLETAR
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/14fb0a48-9c50-4f9e-b32c-d0eab2c5e540)
