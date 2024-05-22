@@ -33,6 +33,8 @@ Es un server web de código abierto que, tambien puede ser utilizado como proxy 
 # COMPLETAR 
 
 Descargar la imagen  **nginx** en la versión **alpine**
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/27bb5f1c-9f38-4dd4-8ed5-96492ec1f051)
+
 # COMPLETAR
 
 ### Listar imágenes
