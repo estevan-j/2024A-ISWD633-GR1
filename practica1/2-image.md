@@ -91,4 +91,5 @@ Es una buena práctica detener y eliminar todos los contenedores que dependan de
 ```
 docker rmi -f <nombre imagen>:<tag>
 ```
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/ef7e7c33-a805-4cb2-9a1a-8963ff18c52c)
 
