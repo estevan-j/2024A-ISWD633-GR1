@@ -1,4 +1,4 @@
-# Contenedores
+<# Contenedores
 
 ### Crear un contenedor
 Para crear un nuevo contenedor Docker a partir de una imagen específica, pero sin iniciarlo automáticamente. 
@@ -7,6 +7,8 @@ Para crear un nuevo contenedor Docker a partir de una imagen específica, pero s
 docker create --name <nombre contenedor> <nombre imagen>:<tag>
 ```
 Crear el contenedor  **srv-web** usando la imagen nginx version alpine
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/6273c569-9f96-4fa4-a597-f15d9a1873a7)
+
 # COMPLETAR
 
 Si creas un contenedor en Docker sin asignarle un nombre específico utilizando la opción --name, Docker asignará automáticamente un nombre aleatorio al contenedor. Este nombre suele consistir en una combinación de palabras y números.  
@@ -19,6 +21,7 @@ Crear el contenedor usando la imagen hello-world
 ```
 docker ps -a
 ```
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/b0efd425-147f-4e84-8dc1-7fa6f9d9afc7)
 
 ### Para iniciar un contenedor
 
@@ -33,6 +36,7 @@ Iniciar el contenedor srv-web
 docker ps 
 docker ps | grep <nombre contenedor>
 ```
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/11a239a2-3e16-42e9-a01a-c2484e0f3985)
 
 ### Para detener un contenedor
 
@@ -78,6 +82,8 @@ Eliminar el contenedor que se creó a partir de la imagen hello-world
 # COMPLETAR
 
 Verificar que el contenedor que se eliminó
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/38727dbf-ebb6-44f6-b265-d54f7fe97cfd)
+
 # COMPLETAR
 
 ### Para eliminar un contenedor que esté ejecutándose
@@ -87,8 +93,9 @@ docker rm -f <nombre contenedor>
 ```
 Eliminar el contenedor **srv-web3** 
 # COMPLETAR
-
 Verificar que el contenedor que se eliminó
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/3b0f40bd-3135-426e-845d-4b01f2743ca9)
+
 # COMPLETAR
 
 ### Para inspecionar un contenedor 
