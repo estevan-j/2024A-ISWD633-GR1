@@ -4,4 +4,5 @@ ____
 Antes de Inicar la practica tenia conocimientos confusos de docker. Al finalizar he comprendido sobre el funcionamiento de docker, el funcionamiento de los comandos basicos para crear contenedores, descargar imagenes, consultar información sobre los contenedores. Asimismo,  he socializado sobre como funciano el software Docker y sobre su importancia para crear entornos de Desarrollo.
 
 Si solucionó un problema presentado al realizar la práctica también se debe documentar.
-(No funciono el docker)
+| Problema | Solución |
+| Pull a una imagen | Realizar log a mi cuenta docker, alguna imagenes lo solicitan |
