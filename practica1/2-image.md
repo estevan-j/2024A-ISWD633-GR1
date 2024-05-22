@@ -55,6 +55,7 @@ El comando docker inspect se utiliza para obtener información detallada sobre u
 docker inspect <nombre imagen>
 docker inspect <nombre imagen>:<tag>
 ```
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/dec9a2b6-fd8a-484b-a59a-95dff65b449a)
 
 Inspeccionar la imagen hello-world 
 # COMPLETAR
