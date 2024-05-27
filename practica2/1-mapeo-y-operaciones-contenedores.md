@@ -115,7 +115,7 @@ docker logs n <cantidad de líneas> <nombre o id del contenedor>
 ```
 -t: para incluir la fecha y la hora
 
-``docker logs -n 10 webJek``
+```docker logs -n 10 webJek```
 
 ![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/4d1e432d-46f9-46c0-99d3-2553930e0ed6)
 
