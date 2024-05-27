@@ -16,6 +16,8 @@ No puedes mapear puertos a un contenedor existente directamente después de su c
 
 ### Crear contenedor de Jenkins puertos contenedor: 8080 (interface web) y 50000 (comunicación entre nodos) imagen: jenkins/jenkins:alpine3.18-jdk11
 # COMPLETAR
+
+´´docker run -d --name webJek --publish published=8080,target=8080 --publish published=50000,target=50000 jenkins/jenkins:alpine3.18-jdk11´´
 ![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/a30f5c56-11a8-4f2c-8eda-1ef134417895)
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
@@ -43,6 +45,7 @@ El comando para listar el contenido de la carpeta de manera detalla incluyendo (
 
 # COMPLETAR
 # COLOCAR UNA CAPTURA DE PANTALLA
+´´docker exec webJek ls´´
 ![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/f2a7628a-e6d3-4e05-a857-3b73c76c54b2)
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
@@ -98,8 +101,9 @@ docker exec -it <nombre contenedor> <programa o comando>
 ### Ahora puedes acceder al contenedor de jenkins y obtener la contraseña ubicada en /var/jenkins_home/secrets/initialAdminPassword
 
 # COMPLETAR
-
+´´docker exec -it webJek echo $initialAdminPassword´´
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/a0d59489-8244-4cc2-aa3b-27d8d68867cb)
 
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 
@@ -111,7 +115,8 @@ docker logs n <cantidad de líneas> <nombre o id del contenedor>
 ```
 -t: para incluir la fecha y la hora
 
+``docker logs -n 10 webJek``
 
-
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/4d1e432d-46f9-46c0-99d3-2553930e0ed6)
 
 
