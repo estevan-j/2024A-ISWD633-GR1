@@ -44,8 +44,9 @@ El comando para listar el contenido de la carpeta de manera detalla incluyendo (
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
 
 # COMPLETAR
-# COLOCAR UNA CAPTURA DE PANTALLA
 ```docker exec webJek ls```
+# COLOCAR UNA CAPTURA DE PANTALLA
+
 ![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/f2a7628a-e6d3-4e05-a857-3b73c76c54b2)
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
@@ -101,7 +102,7 @@ docker exec -it <nombre contenedor> <programa o comando>
 ### Ahora puedes acceder al contenedor de jenkins y obtener la contraseña ubicada en /var/jenkins_home/secrets/initialAdminPassword
 
 # COMPLETAR
-´´docker exec -it webJek echo $initialAdminPassword´´
+```docker exec -it webJek echo $initialAdminPassword```
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
 ![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/a0d59489-8244-4cc2-aa3b-27d8d68867cb)
 
