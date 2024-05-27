@@ -17,7 +17,7 @@ No puedes mapear puertos a un contenedor existente directamente después de su c
 ### Crear contenedor de Jenkins puertos contenedor: 8080 (interface web) y 50000 (comunicación entre nodos) imagen: jenkins/jenkins:alpine3.18-jdk11
 # COMPLETAR
 
-´´docker run -d --name webJek --publish published=8080,target=8080 --publish published=50000,target=50000 jenkins/jenkins:alpine3.18-jdk11´´
+```docker run -d --name webJek --publish published=8080,target=8080 --publish published=50000,target=50000 jenkins/jenkins:alpine3.18-jdk11```
 ![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/a30f5c56-11a8-4f2c-8eda-1ef134417895)
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
@@ -45,7 +45,7 @@ El comando para listar el contenido de la carpeta de manera detalla incluyendo (
 
 # COMPLETAR
 # COLOCAR UNA CAPTURA DE PANTALLA
-´´docker exec webJek ls´´
+```docker exec webJek ls```
 ![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/f2a7628a-e6d3-4e05-a857-3b73c76c54b2)
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
