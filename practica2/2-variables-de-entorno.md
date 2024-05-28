@@ -53,8 +53,17 @@ Es necesario especificar la ruta absoluta del archivo si este se encuentra en un
 
 ### Crear un contenedor con mysql:8 , mapear todos los puertos y configurar las variables de entorno mediante un archivo
 # COMPLETAR
+```
+docker run -d --name mysqlEnv --env-file=varEnv.env mysql:8
+```
 
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR 
 
 ### ¿Qué bases de datos existen en el contenedor creado?
+```
+winpty docker exec -it dbMysql mysql -uroot -p${MYSQL_ROOT_PASSWORD} -e "SHOW DATABASES;"
+
+```
 # COMPLETAR
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/a6800ac8-0499-4931-bb69-2a58d503a533)
+
