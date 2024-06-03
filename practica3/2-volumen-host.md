@@ -26,6 +26,8 @@ Accede de manera posible status code 200. y podemos visualizar la pagina web.
 ```
 docker rm -f nginxV
 ```
+$(pwd -W): retornar la ruta del directorio actual en formato Windows
+
 ### ¿Qué sucede al crear nuevamente el mismo contenedor con volumen de tipo host a los directorios definidos anteriormente?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
