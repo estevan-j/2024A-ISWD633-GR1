@@ -27,12 +27,22 @@ La figura presenta el esquema creado en donde los puertos son:
 
 ## Desde el cliente
 ### Acceder desde el cliente al servidor postgres creado.
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/fad00404-7bc3-4263-aadc-6b163d359a98)
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/3941dd58-1e92-494f-95ca-c69a94d20afb)
+
 # COMPLETAR CON UNA CAPTURA DEL LOGIN
 ### Crear la base de datos info, y dentro de esa base la tabla personas, con id (serial) y nombre (varchar), agregar un par de registros en la tabla, obligatorio incluir su nombre.
 
 ## Desde el servidor postgresl
 ### Acceder al servidor
+#### Verificar que ambos contenedores esten en la misma red
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/8eab2094-4b55-480a-889a-1b6ddaa58435)
+#### Consultar las variables postgres para realizar la conexión a cliente(PgAdmin)
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/c04d9ed5-a863-44c4-9f06-75f50e29e0f0)
+
 ### Conectarse a la base de datos info
 # COMPLETAR
 ### Realizar un select *from personas
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/b3f7eae6-5a56-451b-bf11-52953cf058a4)
+
 # AGREGAR UNA CAPTURA DE PANTALLA DEL RESULTADO
