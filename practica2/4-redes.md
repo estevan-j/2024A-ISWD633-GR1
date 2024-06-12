@@ -12,12 +12,14 @@ Las redes son un componente fundamental que permite la comunicación entre conte
 ```
 docker network create <nombre red> -d bridge
 ```
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/bf3561c0-2801-4d92-ab17-8a1eb4600453)
 
 ### Crear un contenedor vinculado a una red
 
 ```
 docker run -d --name <nombre contenedor> --network <nombre red> <nombre imagen>
 ```
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/4107f321-e834-4738-8189-7689461419f6)
 
 ### Para saber a qué red está conectado un contenedor
 
@@ -28,11 +30,13 @@ docker inspect <nombre contenedor>
 ```
 docker network inspect <nombre red> 
 ```
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/eaf753e0-2bae-44a2-a75d-72b079177519)
 
 ### Vincular contenedor a una red
 ```
 docker network connect <nombre red> <nombre contenedor>
 ```
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/42a67c43-3a60-4ead-a9cd-8aa119c0e87a)
 
 ### Para desvincular un contenedor de una red
 ```
