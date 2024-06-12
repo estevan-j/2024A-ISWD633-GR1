@@ -5,18 +5,17 @@
 # COMPLETAR
 ```
 docker network create net01
-``
+```
 ### Crear el contenedor mysql a partir de la imagen mysql:8, configurar las variables de entorno necesarias
+# COMPLETAR
 ```
 docker run --name mysq --network net01 --env-file=./mysql-ev.env -d mysql:8
 ```
+### Crear el contenedor wordpress a partir de la imagen: wordpress, configurar las variables de entorno necesarias
 # COMPLETAR
 ```
  docker run --name contWp --network net01 --env-file=./workp-ev.env -p 8080:80 -d wordpress
 ```
-### Crear el contenedor wordpress a partir de la imagen: wordpress, configurar las variables de entorno necesarias
-# COMPLETAR
-
 De acuerdo con el trabajo realizado, en la el esquema de ejercicio el puerto a es **(completar con el valor)**
 
 Ingresar desde el navegador al wordpress y finalizar la configuración de instalación.
@@ -43,7 +42,7 @@ docker run --name container-wp --network net-wp --env-file=./workp-ev.env -p 808
 ```
 ### ¿Qué ha sucedido, qué puede observar?
 # COMPLETAR
-
+> Existe un error: The theme directory "storefront" does not exist.
 
 
 
