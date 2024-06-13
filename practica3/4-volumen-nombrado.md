@@ -19,7 +19,7 @@ Cuando creas un volumen nombrado, Docker asigna un punto de montaje específico 
 
 ### ¿Cuál es el Mountpoint de vol-postgres?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
-
+>El Mountpoint de vol-postgres se puede obtener ejecutando:
 ### Estructura del Punto de Montaje:
 - /var/lib/docker/volumes/: Es la ubicación base donde Docker almacena todos los volúmenes en el sistema de archivos del host.
 - nombreVolumen/: Es el nombre del volumen nombrado que has creado. Docker crea un directorio con este nombre dentro de /var/lib/docker/volumes/ para almacenar los datos del volumen.
