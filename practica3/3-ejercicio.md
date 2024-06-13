@@ -17,12 +17,11 @@ Ruta carpeta host: .../ejercicio3/db
 ### Crear un contenedor con la imagen mysql:8  en la red net-wp, configurar las variables de entorno: MYSQL_ROOT_PASSWORD, MYSQL_DATABASE, MYSQL_USER y MYSQL_PASSWORD
 # COMPLETAR CON EL COMANDO
 ```
-
-
+docker run --name contMysq --env-file=./mysq.env -v /c/Users/Usuario/Documents//git\ hub\ uni/2024A-ISWD633-GR1/practica3/db:/var/lib/mysql --network net-wp -d mysql:8
 ```
 ### ¿Qué observa en la carpeta db que se encontraba inicialmente vacía?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
-Después de iniciar el contenedor MySQL, la carpeta db en el host contendrá archivos y directorios correspondientes a las bases de datos MySQL, como ibdata1, ib_logfile0, y directorios de bases de datos.
+>Después de iniciar el contenedor MySQL, la carpeta db en el host contendrá archivos y directorios correspondientes a las bases de datos >MySQL, como ibdata1, ib_logfile0, y directorios de bases de datos.
 ### Para que persista la información es necesario conocer en dónde wordpress almacena la información.
 # COMPLETAR LA SIGUIENTE ORACIÓN. REVISAR LA DOCUMENTACIÓN DE LA IMAGEN EN https://hub.docker.com/)
 En el esquema del ejercicio la carpeta contenedor (b) es (COMPLETAR CON LA RUTA)
