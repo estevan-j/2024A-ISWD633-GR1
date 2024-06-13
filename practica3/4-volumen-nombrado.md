@@ -65,6 +65,7 @@ docker run -d --name client-postgres -p 9500:80 -e PGADMIN_DEFAULT_PASSWORD=1234
 ![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/6c437586-743f-4503-874f-bb72c80573d3)
 
 ### Usar el cliente postgres para conectarse al servidor postgres, para la conexión usar el nombre del servidor en lugar de la dirección IP.
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/77788fdf-f511-4811-97e7-5a89887c8235)
 
 ### Crear los volúmenes necesarios para drupal, esto se puede encontrar en la documentación
 ### COMPLETAR CON LOS COMANDOS
@@ -76,9 +77,11 @@ docker volume create vol-drupal-sites
 ```
 ### Crear el contenedor server-drupal vinculado a la red, usar la imagen drupal, y vincularlo a los volúmenes nombrados
 docker run -d --name server-drupal --publish published=9700,target=80 -v <nombre volumen>:<ruta contenedor> -v <nombre volumen>:<ruta contenedor> -v <nombre volumen>:<ruta contenedor> -v <nombre volumen>:<ruta contenedor> --network net-drupal drupal
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/40b1a270-5d96-441a-82dd-3c8bb5c6f0bb)
 
 ### Ingrese al server-drupal y siga el paso a paso para la instalación.
 # COMPLETAR CON UNA CAPTURA DE PANTALLA DEL PASO 4
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/5c9ac7e4-692e-4e1e-805f-7d5f93cb3719)
 
 _La instalación puede tomar varios minutos, mientras espera realice un diagrama de los contenedores que ha creado en este apartado._
 
