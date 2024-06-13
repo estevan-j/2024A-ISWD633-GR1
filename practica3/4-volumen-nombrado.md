@@ -20,6 +20,11 @@ Cuando creas un volumen nombrado, Docker asigna un punto de montaje específico 
 ### ¿Cuál es el Mountpoint de vol-postgres?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 >El Mountpoint de vol-postgres se puede obtener ejecutando:
+```
+docker volume inspect vol-postgres
+```
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/8f627790-c0be-43af-9c72-76ccb04ad2df)
+
 ### Estructura del Punto de Montaje:
 - /var/lib/docker/volumes/: Es la ubicación base donde Docker almacena todos los volúmenes en el sistema de archivos del host.
 - nombreVolumen/: Es el nombre del volumen nombrado que has creado. Docker crea un directorio con este nombre dentro de /var/lib/docker/volumes/ para almacenar los datos del volumen.
@@ -36,6 +41,10 @@ docker run -d --name <nombre contenedor> -v <nombre volumen>:<ruta contenedor> <
 
 ### Crear la red net-drupal de tipo bridge
 # COMPLETAR CON EL COMANDO
+```
+docker network create --drive bridge net-drupal
+```
+![image](https://github.com/estevan-j/2024A-ISWD633-GR1/assets/94009206/9e17ffd3-9f90-47b5-8ce1-9e2ede1388d5)
 
 ### Crear un servidor postgres vinculado a la red net-drupal, completar la ruta del contenedor
 docker run -d --name server-postgres -e POSTGRES_DB=db_drupal -e POSTGRES_PASSWORD=12345 -e POSTGRES_USER=user_drupal -v vol-postgres:<ruta contenedor> --network net-drupal postgres
